@@ -1,1 +1,66 @@
-Hello World
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+
+    <title>Tic Tac Toe Game</title>
+  </head>
+  <body>
+
+    <div id="header" class="text-center container-fluid">
+      <h1>Tic Tac Toe Game</h1>
+      <h2>Impossible To Win!</h2>
+      <h3>Created by <a href="https://codepen.io/ruipeixoto/" target="_blank">Rui Peixoto</a>.</h3>
+    </div>
+
+
+    <div id="main-container" class="container-fluid">
+
+      <table>
+        <tr>
+          <td class="cell" id="0"></td>
+          <td class="cell" id="1"></td>
+          <td class="cell" id="2"></td>
+        </tr>
+        <tr>
+          <td class="cell" id="3"></td>
+          <td class="cell" id="4"></td>
+          <td class="cell" id="5"></td>
+        </tr>
+        <tr>
+          <td class="cell" id="6"></td>
+          <td class="cell" id="7"></td>
+          <td class="cell" id="8"></td>
+        </tr>
+      </table>
+      <div class="endgame">
+        <div id="text" class="text"></div>
+        <button onClick="startGame()">Replay</button>
+      </div>
+
+
+      <div id="first-container">
+        <h1 id="question">Would you like to be X or O?</h1>
+        <div id="X" class="option">X</div>
+        <div id="O" class="option">O</div>
+      </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
+
