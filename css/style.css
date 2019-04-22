@@ -415,13 +415,17 @@ body {
     transform: scale(0.95); }
 
 .feature-box {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(23, 70, 126, 0.2);
   font-size: 1.5rem;
   padding: 2.5rem;
   text-align: center;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   transition: transform .3s; }
+
+ .feature-box h3 {
+   color: black;
+ } 
   @media only screen and (max-width: 56.25em) {
     .feature-box {
       padding: 2rem; } }
@@ -949,7 +953,8 @@ body {
 
 .section-book {
   padding: 15rem 0;
-  background-image: linear-gradient(to right bottom, #33ccff, #0066ff); }
+  background-image: linear-gradient(to right bottom,  #f7f7f7, #f7f7f7); }
+ 
   @media only screen and (max-width: 56.25em) {
     .section-book {
       padding: 10rem 0; } }
